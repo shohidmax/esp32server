@@ -9,7 +9,7 @@ require('dotenv').config();
 const { MongoClient, ServerApiVersion, ObjectId, ISODate } = require('mongodb');
 const { error } = require('console');
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 
 const http = require('http').createServer(app);
