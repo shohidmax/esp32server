@@ -5,12 +5,12 @@ const multer = require('multer');
 const bodyParser = require('body-parser');
 // const { createCanvas, loadImage } = require('canvas');
 require('dotenv').config();
-app.use(cors());
+
 const { MongoClient, ServerApiVersion, ObjectId, ISODate } = require('mongodb');
 const { error } = require('console');
 const app = express();
 const port = process.env.PORT || 3000;
-
+app.use(cors());
 
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
