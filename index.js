@@ -138,7 +138,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Atif super  mart server running at  : ", port);
+  console.log("Max It server running at  : ", port);
 });
 
 
