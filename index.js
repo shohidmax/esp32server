@@ -46,8 +46,8 @@ async function run() {
   try {
     await client.connect();
     console.log('db connected');
-    const productCollection = client.db('Esp32data').collection('espdata');
-    const EspCollection = client.db('Esp32data').collection('espdata2');
+    const productCollection = client.db('Esp32data4').collection('espdata');
+    const EspCollection = client.db('Esp32data4').collection('espdata2');
  
 
 
